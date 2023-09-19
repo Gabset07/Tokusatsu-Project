@@ -5,7 +5,8 @@ Além disso é um projeto autoral. E devo dizer que estou muito contente com o r
 
 
 
-## Projeto: ![Tokusatsu-Project](https://github.com/Galux17/Tokusatsu-Selection/assets/103261889/b6d6790c-0ca3-4354-a7b5-d1b8a0913031)
+## Projeto: ![Tokusatsu-Project](https://github.com/Gabset07/Tokusatsu-Project/assets/103261889/2beb5476-977e-4843-ae74-c8218967842f)
+
 
 
 
