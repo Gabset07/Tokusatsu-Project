@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem - MapaDev Week</title>
+    <link rel="stylesheet" href="./src/CSS/variaveis.css" />
+    <link rel="stylesheet" href="./src/CSS/reset.css" />
+    <link rel="stylesheet" href="./src/CSS/fontes.css" />    
+    <link rel="stylesheet" href="./src/CSS/animacoes.css" />
+    <link rel="stylesheet" href="./src/CSS/style.css">       
+    <link rel="stylesheet" href="./src/CSS/responsivo.css">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                Character Select
+            </h1>            
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/Imagens/Garo.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Garo</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="Garo" data-name="Garo">
+                    <span class="tag">1P</span>
+                    <img src="./src/Imagens/Garo.jpg" alt="Personagem Garo">
+                </li>
+
+                <li class="personagem" id="dino-trovao" data-name="Dino-trovao">
+                    <span class="tag">1P</span>
+                    <img src="./src/Imagens/Dino-trovao-face.jpg" alt="Dino Trovao">
+                </li>
+
+                <li class="personagem" id="jaspion" data-name="Jaspion">
+                    <span class="tag">1P</span>
+                    <img src="./src/Imagens/Jaspion-face.jpg" alt="Personagem  Jaspion">
+                </li>
+
+                <li class="personagem" id="Kamen-Ryder" data-name="kamen-Ryder">
+                    <span class="tag">1P</span>
+                    <img src="./src/Imagens/Kamen-rider-2.jpg" alt="Personagem Kamen Rider">
+                </li>
+
+                <li class="personagem" id="jiraya" data-name="Jiraya">
+                    <span class="tag">1P</span>
+                    <img src="./src/Imagens/jiraya-face.jpg" alt="Personagem Jiraya">
+                </li>
+
+                <li class="personagem" id="zenaku" data-name="Zenaku">
+                    <span class="tag">1P</span>
+                    <img src="./src/Imagens/Zenaku (2).jpg" alt="Personagem Zenaku" >
+                </li>
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/Imagens/Kamen-Ryder.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Kamen Rider</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/JS/script.js"></script>
+</body>
+</html>
